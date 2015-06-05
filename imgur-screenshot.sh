@@ -36,7 +36,7 @@ else
   screenshot_window_command="scrot %img"
   open_command="xdg-open %url"
 fi
-open="true"
+open="false"
 
 edit_command="gimp %img"
 edit="false"
@@ -48,7 +48,7 @@ log_file="$HOME/.imgur-screenshot.log"
 
 auto_delete=""
 copy_url="true"
-keep_file="true"
+keep_file="false"
 check_update="true"
 
 ############## END CONFIG ##############
